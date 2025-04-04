@@ -10,7 +10,7 @@ constraintlayout = "2.2.1"
 retrofit = "2.9.0"
 gson = "2.10.1"
 glide = "4.14.2"
-
+circleimageview = "3.1.0"
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
@@ -25,6 +25,7 @@ converter = {group = "com.squareup.retrofit2", name = "converter-gson", version.
 gson = {group = "com.google.code.gson", name = "gson", version.ref = "gson"}
 glide = {group = "com.github.bumptech.glide", name= "glide", version.ref = "glide"}
 compiler = {group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide"}
+circleimageview = {group = "de.hdodenhof", name = "circleimageview", version.ref = "circleimageview"}
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 

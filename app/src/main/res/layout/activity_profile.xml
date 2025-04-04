@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".ProfileActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="Thông tin cá nhân"
+        android:layout_height="wrap_content"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:id="@+id/image"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ma"
+        android:layout_height="100dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:textSize="20sp"
+            android:text="Mã ID"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:textSize="20sp"
+            android:text="3"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Tên đăng nhập"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:textSize="20sp"
+            android:text="kybmt"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:textSize="20sp"
+            android:text = "Họ và tên"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:textSize="20sp"
+            android:text="Phạm Trung Kỳ"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:textSize="20sp"
+            android:text="Email"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:textSize="20sp"
+            android:text="kaka@gmail.com"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Giới tính"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="220dp"
+            android:textSize="20sp"
+            android:text="Male"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Đăng xuất"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

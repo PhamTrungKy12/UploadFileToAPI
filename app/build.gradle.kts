@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.converter)
     implementation(libs.gson)
     implementation(libs.glide)
+    implementation(libs.circleimageview)
     annotationProcessor(libs.compiler)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
